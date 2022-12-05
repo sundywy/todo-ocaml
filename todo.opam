@@ -11,6 +11,8 @@ depends: [
   "ocaml" {= "4.14.0"}
   "dune" {>= "3.6"}
   "base" {= "v0.15.1"}
+  "yojson" {= "2.0.2"}
+  "ppx_deriving_yojson"
   "odoc" {with-doc}
 ]
 build: [

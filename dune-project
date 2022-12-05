@@ -19,7 +19,8 @@
   (ocaml (= 4.14.0))
    dune
   (base (= v0.15.1))
- )
+  (yojson (= 2.0.2))
+   ppx_deriving_yojson)
  (tags
   (topics "to describe" your project)))
 

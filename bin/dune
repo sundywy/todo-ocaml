@@ -1,4 +1,5 @@
 (executable
  (public_name todo)
  (name main)
- (libraries todo base stdio))
+ (libraries todo base stdio yojson unix ppx_deriving_yojson.runtime)
+ (preprocess (pps ppx_deriving_yojson)))
