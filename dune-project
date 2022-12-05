@@ -20,7 +20,8 @@
    dune
   (base (= v0.15.1))
   (yojson (= 2.0.2))
-   ppx_deriving_yojson)
+   ppx_deriving_yojson
+  (cmdliner (= 1.1.1)))
  (tags
   (topics "to describe" your project)))
 
