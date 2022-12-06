@@ -1,2 +1,4 @@
 (library
- (name todo))
+ (name todo)
+ (libraries base stdio yojson unix ppx_deriving_yojson.runtime cmdliner)
+ (preprocess (pps ppx_deriving_yojson)))
